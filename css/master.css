@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(255, 127, 80);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+header img#logo {
+    width: 80px;
+    float: left;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+header nav {
+    float: right;
+    margin-right: 50px;
+    margin: 38px 50px;  
+}
+
+header nav a {
+    padding: 39px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: snow;    
+}
+
+header nav a:hover {   
+    background: gray;
+}
+
+section#content {  
+    position: absolute;  
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 245, 245);
+    text-align: center;
+    margin-top: 200px;
+}
+
+section#content h1 {  
+    font-size: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0 400px;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 10;
+    position: relative;
+}
+
+section#content h3 {  
+    font-size: 30px;
+    margin-top: 120px;
+    z-index: 9;
+    position: relative;    
+}
+
+section#content p {   
+    font-size: 20px;   
+    z-index: 8;
+    position: relative;
+}
+
+section#content button { 
+    font-size: 14px; 
+    font-weight: bold;
+    color: snow;
+    background: tomato;
+    padding: 10px 75px;    
+    border-radius: 10px;
+    margin-top: 35px;
+    z-index: 7;
+    position: relative;
+}
+
+img#slide {    
+    filter: brightness(50%);
+    position: relative;
+    width: 100%;
+    height: 85vh;
+}
+
+section#courses {
+    width: 100%;
+    text-align: center; 
+    background: rgba(210, 105, 30, 0.452); 
+    padding: 30px 0;  
+    position: static;    
+}
+
+section center h1 {
+    margin-top: 50px;
+    position: fixed;
+}
+
+section div {    
+    display: inline-block;
+    width: 400px;  
+    margin: 10px 20px;  
+}
+
+section#courses center h6 {
+    font-size: 13px;    
+    margin: 0;
+}
+
+section#courses center button {
+    margin-top: 10px;
+    background: rgb(30, 170, 48);
+    font-weight: bold;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+
+section#about {
+    background: rgb(221, 82, 110);
+}
+
+section#about div {
+    display: inline-block;
+    text-align: center;    
+}
+
+section#about div.courses {
+    margin-left: 20%;
+}
+
+section#learntech {
+    background: rgb(93, 116, 139);
+    text-align: center;
+}
+
+
+
+/* Footer  */
+footer {    
+    margin: 0 auto;
+    background: rgb(255, 127, 80);    
+    width: 100%;
+    height: 100px;  
+     
+}
+
+footer img#logo {
+    width: 80px;
+    margin: 10px 0 10px 525px;
+}
+
+footer p#footer {
+    float: right;
+    margin: 45px 350px 0 0;
+}
+
+
+
+
+
